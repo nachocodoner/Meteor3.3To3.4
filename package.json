@@ -20,7 +20,9 @@
       "server": "server/main.js"
     },
     "testModule": "tests/main.js",
-    "modern": true
+    "modern": {
+      "verbose": true
+    }
   },
   "devDependencies": {
     "@meteorjs/rspack": "^0.3.54",
